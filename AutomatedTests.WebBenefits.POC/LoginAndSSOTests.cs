@@ -24,18 +24,13 @@ namespace AutomatedTests.WebBenefits.POC
         }
 
         [TestMethod]
-        public void WBSBAdminSSOToWP()
+        public void WB_SB_Admin_SSO_To_WP()
         {
             var loginParams = new LoginPageParams()
             {
                 CompanyId   = "1",
                 Username    = "ckent",
                 Password    = "krypt0n1t3!"
-            };
-
-            var companySearchParams = new CompanySearchParams()
-            {
-                Name        = "AR MPY Test Company"
             };
 
             WB.User.Login(loginParams);

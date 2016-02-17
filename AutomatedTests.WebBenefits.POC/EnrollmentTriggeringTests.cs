@@ -27,6 +27,7 @@ namespace AutomatedTests.WebBenefits.POC
         [TestMethod]
         public void Enrollment_Is_Triggered_For_A_New_Hire()
         {
+            // Arrange
             var loginParams = new LoginPageParams()
             {
                 CompanyId           = "1",
@@ -58,7 +59,11 @@ namespace AutomatedTests.WebBenefits.POC
             WP.Navigation.SSOToWebBenefits();
 
             WB.Implementation.Employees.UpdateEligibility();
+
+
+            // Act
             WB.Implementation.Employees.ImpersonateEmployee();
+
 
             // Assert
             // Verify that Enrollment is triggered.

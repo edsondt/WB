@@ -31,8 +31,8 @@ namespace Library.WebBenefits.FeatureAreas.Implementation
         {
             SearchCompany(p);
 
-            // Click the row given the position. By default, this clicks the first item in the results grid.
-            Browser.WebDriver.FindElement(By.XPath(String.Format(".//table//tr[{0}]/td[2]/a", position))).Click();
+            // Click the row given the position. By default, this clicks the Company Name link of the first item in the results grid.
+            (new CompanySearchPage()).ClickSearchResultField(position, 2);
         }
     }
 }
