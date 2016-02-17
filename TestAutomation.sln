@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedTests.WebBenefits.POC", "AutomatedTests.WebBenefits.POC\AutomatedTests.WebBenefits.POC.csproj", "{6A9339CC-426D-4D01-AC86-4BF0AFAD4AC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.WebBenefits", "Library.WebBenefits\Library.WebBenefits.csproj", "{935193F6-12E4-429A-AECD-2B05ADA4E5DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.WebPay", "Library.WebPay\Library.WebPay.csproj", "{E54D891E-9FA1-4FA8-9021-F779CFEBD58A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Core", "Library.Core\Library.Core.csproj", "{2D164D4C-DC60-40C1-861A-68987669A88E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A9339CC-426D-4D01-AC86-4BF0AFAD4AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A9339CC-426D-4D01-AC86-4BF0AFAD4AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A9339CC-426D-4D01-AC86-4BF0AFAD4AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A9339CC-426D-4D01-AC86-4BF0AFAD4AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{935193F6-12E4-429A-AECD-2B05ADA4E5DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{935193F6-12E4-429A-AECD-2B05ADA4E5DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{935193F6-12E4-429A-AECD-2B05ADA4E5DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{935193F6-12E4-429A-AECD-2B05ADA4E5DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E54D891E-9FA1-4FA8-9021-F779CFEBD58A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E54D891E-9FA1-4FA8-9021-F779CFEBD58A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E54D891E-9FA1-4FA8-9021-F779CFEBD58A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E54D891E-9FA1-4FA8-9021-F779CFEBD58A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D164D4C-DC60-40C1-861A-68987669A88E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D164D4C-DC60-40C1-861A-68987669A88E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D164D4C-DC60-40C1-861A-68987669A88E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D164D4C-DC60-40C1-861A-68987669A88E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
